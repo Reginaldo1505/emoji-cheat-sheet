@@ -123,6 +123,7 @@ async function getCategorizeGithubEmojiIds() {
         }
         break;
       }
+      
       default:
         throw new Error(`Unexpected type ${JSON.stringify(type)}`);
     }
